@@ -19,7 +19,7 @@ package algoh
 import (
 	"io"
 
-	"github.com/algorand/go-algorand/util/codecs"
+	"github.com/Quarkonium-chain/go-quarkonium/util/codecs"
 )
 
 // ConfigFilename is the name of algoh's config file

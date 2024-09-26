@@ -22,16 +22,16 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/account"
-	"github.com/algorand/go-algorand/data/basics"
-	basics_testing "github.com/algorand/go-algorand/data/basics/testing"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/account"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	basics_testing "github.com/Quarkonium-chain/go-quarkonium/data/basics/testing"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
 )
 
 var sinkAddr = basics.Address{0x7, 0xda, 0xcb, 0x4b, 0x6d, 0x9e, 0xd1, 0x41, 0xb1, 0x75, 0x76, 0xbd, 0x45, 0x9a, 0xe6, 0x42, 0x1d, 0x48, 0x6d, 0xa3, 0xd4, 0xef, 0x22, 0x47, 0xc4, 0x9, 0xa3, 0x96, 0xb8, 0x2e, 0xa2, 0x21}

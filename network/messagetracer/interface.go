@@ -17,8 +17,8 @@
 package messagetracer
 
 import (
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 // MessageTracer interface for configuring trace client and sending trace messages

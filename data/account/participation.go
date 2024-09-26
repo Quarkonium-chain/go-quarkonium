@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/crypto/merklesignature"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklesignature"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
 )
 
 // A Participation encapsulates a set of secrets which allows a root to

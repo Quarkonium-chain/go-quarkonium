@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // Peer opaque interface for referring to a neighbor in the network

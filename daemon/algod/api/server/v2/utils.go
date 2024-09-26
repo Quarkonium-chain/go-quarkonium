@@ -30,16 +30,16 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v2/generated/model"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/data/transactions/logic"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	"github.com/algorand/go-algorand/ledger/simulation"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/node"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v2/generated/model"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/simulation"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/node"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // returnError logs an internal message while returning the encoded response.

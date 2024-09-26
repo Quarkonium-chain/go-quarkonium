@@ -44,7 +44,7 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 // ResolverIf represents net.Resolver-compatible interface

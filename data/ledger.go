@@ -20,17 +20,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/data/committee"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/ledger"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/data/committee"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // The Ledger object in this (data) package provides a wrapper around the

@@ -31,10 +31,10 @@ import (
 
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/network"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/timers"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/timers"
 )
 
 var maxEventQueueWait = time.Second * 3

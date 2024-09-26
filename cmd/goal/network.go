@@ -26,11 +26,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/gen"
-	"github.com/algorand/go-algorand/netdeploy"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/gen"
+	"github.com/Quarkonium-chain/go-quarkonium/netdeploy"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 var networkRootDir string

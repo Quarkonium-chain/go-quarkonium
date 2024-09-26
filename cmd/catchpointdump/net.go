@@ -29,15 +29,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/ledger"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/network"
-	"github.com/algorand/go-algorand/protocol"
-	tools "github.com/algorand/go-algorand/tools/network"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	tools "github.com/Quarkonium-chain/go-quarkonium/tools/network"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 var networkName string

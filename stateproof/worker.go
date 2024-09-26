@@ -25,12 +25,12 @@ import (
 
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/network"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
 )
 
 // This is a soft limit on how many provers should be kept in memory, the rest shall be fetched from DB.

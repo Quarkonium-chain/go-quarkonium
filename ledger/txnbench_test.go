@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/data/txntest"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	ledgertesting "github.com/algorand/go-algorand/ledger/testing"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/txntest"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	ledgertesting "github.com/Quarkonium-chain/go-quarkonium/ledger/testing"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"github.com/stretchr/testify/require"
 )
 

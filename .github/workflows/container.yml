@@ -20,7 +20,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            docker.io/${{ github.repository_owner }}/algod
+            docker.io/quarkoniumchain/go-quarkonium
           tags: |
             type=sha,format=long,prefix=
             type=ref,event=branch
@@ -52,19 +52,18 @@ jobs:
             URL=${{ github.server_url }}/${{ github.repository }}.git
             BRANCH=${{ github.ref_name }}
 
-  # TODO: uncomment when https://github.com/docker/hub-tool/issues/172 is complete
-  # update-repo-description:
-  #   name: Update DockerHub Repository Description
-  #   runs-on: ubuntu-latest
-  #   if: github.ref == format('refs/heads/{0}', 'master')
-  #   steps:
-  #     - name: Checkout Code
-  #       uses: actions/checkout@v4
+  update-repo-description:
+    name: Update DockerHub Repository Description
+    runs-on: ubuntu-latest
+    if: github.ref == format('refs/heads/{0}', 'master')
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-  #     - name: Update DockerHub Repository Description
-  #       uses: peter-evans/dockerhub-description@v3
-  #       with:
-  #         username: ${{ secrets.DOCKERHUB_USERNAME }}
-  #         password: ${{ secrets.DOCKERHUB_TOKEN }}
-  #         repository: ${{ github.repository_owner }}/algod
-  #         readme-filepath: ./docker/README.md
+      - name: Update DockerHub Repository Description
+        uses: peter-evans/dockerhub-description@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: quarkoniumchain/go-quarkonium
+          readme-filepath: ./README.md

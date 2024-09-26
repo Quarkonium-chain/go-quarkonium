@@ -17,7 +17,7 @@
 package ledgercore
 
 import (
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // AccountResource used to retrieve a generic resource information from the data tier

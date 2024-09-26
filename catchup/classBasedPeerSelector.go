@@ -18,7 +18,7 @@ package catchup
 
 import (
 	"errors"
-	"github.com/algorand/go-algorand/network"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
 	"github.com/algorand/go-deadlock"
 	"time"
 )

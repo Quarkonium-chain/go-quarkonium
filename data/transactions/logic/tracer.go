@@ -17,9 +17,9 @@
 package logic
 
 import (
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
 )
 
 // EvalTracer functions are called by eval function during AVM program execution, if a tracer

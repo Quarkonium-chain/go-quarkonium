@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/nodecontrol"
-	"github.com/algorand/go-algorand/test/framework/fixtures"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/nodecontrol"
+	"github.com/Quarkonium-chain/go-quarkonium/test/framework/fixtures"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 func TestNodeControllerCleanup(t *testing.T) {

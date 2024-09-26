@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // DefaultGenesis should be used as the default initial state for any GenesisData

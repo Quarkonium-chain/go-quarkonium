@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto/merklearray"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklearray"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 

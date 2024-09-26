@@ -33,9 +33,9 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/discovery/routing"
 	"go.opencensus.io/stats/view"
 
-	"github.com/algorand/go-algorand/config"
-	algoproto "github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	algoproto "github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 )
 
 const minBackoff = time.Second * 5

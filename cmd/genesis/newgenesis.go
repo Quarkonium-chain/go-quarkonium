@@ -23,9 +23,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/gen"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/gen"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 var outDir = flag.String("d", "", "The directory containing the generated ledger and wallet files.")

@@ -31,9 +31,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/data/transactions/logic"
-	"github.com/algorand/go-algorand/libgoal"
-	"github.com/algorand/go-algorand/shared/pingpong"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
+	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
+	"github.com/Quarkonium-chain/go-quarkonium/shared/pingpong"
 )
 
 var dataDir string

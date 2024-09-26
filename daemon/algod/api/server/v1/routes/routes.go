@@ -17,8 +17,8 @@
 package routes
 
 import (
-	"github.com/algorand/go-algorand/daemon/algod/api/server/lib"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v1/handlers"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/lib"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v1/handlers"
 )
 
 // V1Routes contains all routes for v1

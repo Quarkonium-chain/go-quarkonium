@@ -23,7 +23,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 var versionCheck bool

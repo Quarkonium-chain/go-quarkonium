@@ -19,8 +19,8 @@ package agreement
 import (
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // The player implements the top-level state machine functionality of the

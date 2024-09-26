@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 const truncateIOTrace = false

@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/crypto/secp256k1"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/secp256k1"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"github.com/algorand/go-sumhash"
 	"golang.org/x/crypto/sha3"
 )

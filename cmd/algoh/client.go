@@ -19,7 +19,7 @@ package main
 import (
 	"context"
 
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v2/generated/model"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v2/generated/model"
 )
 
 // Client is a minimal interface for the RestClient

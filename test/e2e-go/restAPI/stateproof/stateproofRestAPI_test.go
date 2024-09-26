@@ -21,19 +21,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/crypto/merklesignature"
-	"github.com/algorand/go-algorand/data/account"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/test/framework/fixtures"
-	"github.com/algorand/go-algorand/test/partitiontest"
-	"github.com/algorand/go-algorand/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklesignature"
+	"github.com/Quarkonium-chain/go-quarkonium/data/account"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/test/framework/fixtures"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
 	"github.com/stretchr/testify/require"
 
-	helper "github.com/algorand/go-algorand/test/e2e-go/restAPI"
+	helper "github.com/Quarkonium-chain/go-quarkonium/test/e2e-go/restAPI"
 )
 
 func TestStateProofInParticipationInfo(t *testing.T) {

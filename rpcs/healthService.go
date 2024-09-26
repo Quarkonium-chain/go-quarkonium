@@ -19,7 +19,7 @@ package rpcs
 import (
 	"net/http"
 
-	"github.com/algorand/go-algorand/network"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
 )
 
 // HealthService is a service that provides health information endpoints for the node

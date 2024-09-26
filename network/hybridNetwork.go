@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/network/addr"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/network/addr"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // HybridP2PNetwork runs both P2PNetwork and WebsocketNetwork to implement the GossipNode interface

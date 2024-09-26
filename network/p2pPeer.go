@@ -23,7 +23,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 	"github.com/algorand/websocket"
 
 	"github.com/libp2p/go-libp2p/core/network"

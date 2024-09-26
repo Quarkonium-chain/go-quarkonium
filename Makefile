@@ -84,14 +84,14 @@ endif
 GOTAGS      := --tags "$(GOTAGSLIST)"
 GOTRIMPATH	:= $(shell GOPATH=$(GOPATH) && go help build | grep -q .-trimpath && echo -trimpath)
 
-GOLDFLAGS_BASE  := -X github.com/algorand/go-algorand/config.BuildNumber=$(BUILDNUMBER) \
-		 -X github.com/algorand/go-algorand/config.CommitHash=$(COMMITHASH) \
-		 -X github.com/algorand/go-algorand/config.Branch=$(BUILDBRANCH) \
-		 -X github.com/algorand/go-algorand/config.DefaultDeadlock=$(DEFAULT_DEADLOCK) \
+GOLDFLAGS_BASE  := -X github.com/Quarkonium-chain/go-quarkonium/config.BuildNumber=$(BUILDNUMBER) \
+		 -X github.com/Quarkonium-chain/go-quarkonium/config.CommitHash=$(COMMITHASH) \
+		 -X github.com/Quarkonium-chain/go-quarkonium/config.Branch=$(BUILDBRANCH) \
+		 -X github.com/Quarkonium-chain/go-quarkonium/config.DefaultDeadlock=$(DEFAULT_DEADLOCK) \
 		 -extldflags \"$(EXTLDFLAGS)\"
 
 GOLDFLAGS := $(GOLDFLAGS_BASE) \
-		 -X github.com/algorand/go-algorand/config.Channel=$(CHANNEL)
+		 -X github.com/Quarkonium-chain/go-quarkonium/config.Channel=$(CHANNEL)
 
 UNIT_TEST_SOURCES := $(sort $(shell GOPATH=$(GOPATH) && GO111MODULE=off && go list ./... | grep -v /go-algorand/test/ ))
 ALGOD_API_PACKAGES := $(sort $(shell GOPATH=$(GOPATH) && GO111MODULE=off && cd daemon/algod/api; go list ./... ))
@@ -150,9 +150,9 @@ msgp: $(patsubst %,%/msgp_gen.go,$(MSGP_GENERATE))
 %/msgp_gen.go: deps ALWAYS
 		@set +e; \
 		printf "msgp: $(@D)..."; \
-		$(GOPATH1)/bin/msgp -file ./$(@D) -o $@ -warnmask github.com/algorand/go-algorand > ./$@.out 2>&1; \
+		$(GOPATH1)/bin/msgp -file ./$(@D) -o $@ -warnmask github.com/Quarkonium-chain/go-quarkonium > ./$@.out 2>&1; \
 		if [ "$$?" != "0" ]; then \
-			printf "failed:\n$(GOPATH1)/bin/msgp -file ./$(@D) -o $@ -warnmask github.com/algorand/go-algorand\n"; \
+			printf "failed:\n$(GOPATH1)/bin/msgp -file ./$(@D) -o $@ -warnmask github.com/Quarkonium-chain/go-quarkonium\n"; \
 			cat ./$@.out; \
 			rm ./$@.out; \
 			exit 1; \

@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/logging/logspec"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/db"
-	"github.com/algorand/go-algorand/util/timers"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/logspec"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/util/timers"
 )
 
 // diskState represents the state required by the agreement protocol to be persistent.

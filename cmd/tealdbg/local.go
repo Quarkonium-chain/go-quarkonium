@@ -22,12 +22,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/data/transactions/logic"
-	"github.com/algorand/go-algorand/ledger/apply"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/apply"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"golang.org/x/exp/slices"
 )
 

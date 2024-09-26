@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 const defaultLocalVariableDeclaration = "var defaultLocal"

@@ -17,7 +17,7 @@
 package pools
 
 import (
-	"github.com/algorand/go-algorand/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
 )
 
 type statusCacheEntry struct {

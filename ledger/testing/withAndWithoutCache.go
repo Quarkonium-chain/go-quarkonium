@@ -19,7 +19,7 @@ package testing
 import (
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 // WithAndWithoutLRUCache allows for running a test with ledger LRU cache activated and deactivated.

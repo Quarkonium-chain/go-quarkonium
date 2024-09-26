@@ -21,7 +21,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // unicodePrintable scan the input string str, and find if it contains any

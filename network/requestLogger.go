@@ -24,8 +24,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/logging/telemetryspec"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/telemetryspec"
 )
 
 // RequestLogger is a middleware helps logging all the incoming http requests.

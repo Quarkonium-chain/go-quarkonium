@@ -17,7 +17,7 @@
 package transactions
 
 import (
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // AssetConfigTxnFields captures the fields used for asset

@@ -23,10 +23,10 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/algorand/go-algorand/daemon/algod/api/server/lib"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v1/routes"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/lib"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v1/routes"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 func setupRouter() *echo.Echo {

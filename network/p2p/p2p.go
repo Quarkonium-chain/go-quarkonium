@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/network/limitcaller"
-	pstore "github.com/algorand/go-algorand/network/p2p/peerstore"
-	"github.com/algorand/go-algorand/network/phonebook"
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/network/limitcaller"
+	pstore "github.com/Quarkonium-chain/go-quarkonium/network/p2p/peerstore"
+	"github.com/Quarkonium-chain/go-quarkonium/network/phonebook"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 	"github.com/algorand/go-deadlock"
 
 	"github.com/libp2p/go-libp2p"

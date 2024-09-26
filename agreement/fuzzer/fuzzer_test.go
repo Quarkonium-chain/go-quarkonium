@@ -28,16 +28,16 @@ import (
 
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/agreement/agreementtest"
-	"github.com/algorand/go-algorand/agreement/gossip"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/account"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/util/db"
-	"github.com/algorand/go-algorand/util/timers"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement/agreementtest"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement/gossip"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/account"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/util/timers"
 )
 
 // Fuzzer is a container for the entire network stack across all the nodes.

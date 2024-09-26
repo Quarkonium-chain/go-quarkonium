@@ -19,7 +19,7 @@ package merklearray
 import (
 	"fmt"
 
-	"github.com/algorand/go-algorand/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 	"github.com/algorand/msgp/msgp"
 )
 

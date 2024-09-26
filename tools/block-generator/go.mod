@@ -1,6 +1,6 @@
-module github.com/algorand/go-algorand/tools/block-generator
+module github.com/Quarkonium-chain/go-quarkonium/tools/block-generator
 
-replace github.com/algorand/go-algorand => ../..
+replace github.com/Quarkonium-chain/go-quarkonium => ../..
 
 go 1.21
 
@@ -8,7 +8,7 @@ toolchain go1.21.10
 
 require (
 	github.com/algorand/avm-abi v0.2.0
-	github.com/algorand/go-algorand v0.0.0
+	github.com/Quarkonium-chain/go-quarkonium v0.0.0
 	github.com/algorand/go-codec/codec v1.1.10
 	github.com/algorand/go-deadlock v0.2.3
 	github.com/lib/pq v1.10.9

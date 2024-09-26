@@ -32,14 +32,14 @@ import (
 
 	"github.com/algorand/avm-abi/abi"
 	"github.com/algorand/avm-abi/apps"
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/crypto"
-	apiclient "github.com/algorand/go-algorand/daemon/algod/api/client"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/data/transactions/logic"
-	"github.com/algorand/go-algorand/libgoal"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	apiclient "github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/client"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
+	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 var (

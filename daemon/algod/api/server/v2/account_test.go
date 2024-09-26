@@ -22,12 +22,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v2/generated/model"
-	"github.com/algorand/go-algorand/data/basics"
-	ledgertesting "github.com/algorand/go-algorand/ledger/testing"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v2/generated/model"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	ledgertesting "github.com/Quarkonium-chain/go-quarkonium/ledger/testing"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 func TestAccount(t *testing.T) {

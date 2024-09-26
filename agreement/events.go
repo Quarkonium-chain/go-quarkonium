@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // An event represents the communication of an event to a state machine.

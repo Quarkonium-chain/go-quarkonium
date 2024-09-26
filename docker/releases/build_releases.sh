@@ -79,7 +79,7 @@ IFS='' read -r -d '' DOCKERFILE <<EOF
 FROM ubuntu:22.04
 
 RUN apt-get update && apt-get -y dist-upgrade && apt-get install -y ca-certificates curl --no-install-recommends && \
-    curl --silent -L https://github.com/algorand/go-algorand-doc/blob/master/downloads/installers/linux_amd64/install_master_linux-amd64.tar.gz?raw=true | tar xzf - && \
+    curl --silent -L https://github.com/Quarkonium-chain/go-quarkonium-doc/blob/master/downloads/installers/linux_amd64/install_master_linux-amd64.tar.gz?raw=true | tar xzf - && \
     ./update.sh -c $CHANNEL -n -p ~/node -d ~/node/data -i -g $NETWORK
 WORKDIR /root/node
 EOF

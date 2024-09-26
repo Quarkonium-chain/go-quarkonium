@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/algorand/go-algorand/network/addr"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/network/addr"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/algorand/websocket"
 	"github.com/stretchr/testify/require"
 )

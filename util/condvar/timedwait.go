@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 // TimedWait waits for sync.Cond c to be signaled, with a timeout.

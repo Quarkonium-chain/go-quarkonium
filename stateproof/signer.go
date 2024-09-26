@@ -22,12 +22,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto/merklesignature"
-	"github.com/algorand/go-algorand/data/account"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/stateproofmsg"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklesignature"
+	"github.com/Quarkonium-chain/go-quarkonium/data/account"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/stateproofmsg"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // sigFromAddr encapsulates a signature on a block header, which

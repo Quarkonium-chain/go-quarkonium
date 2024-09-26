@@ -25,11 +25,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/netdeploy/remote"
-	"github.com/algorand/go-algorand/tools/network/cloudflare"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/netdeploy/remote"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/network/cloudflare"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 type nodeConfigurator struct {

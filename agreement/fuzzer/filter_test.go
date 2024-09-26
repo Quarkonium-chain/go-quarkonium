@@ -17,7 +17,7 @@
 package fuzzer
 
 import (
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // DownstreamFilter is the network filter downsteam filter interface

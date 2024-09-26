@@ -123,7 +123,7 @@ Because the root directory contains some metadata, if persistence of the private
 
 Generating participation keys may take several minutes. By creating them ahead of time a new private network can be started more quickly. These keys can be reused for multiple networks.
 
-Note that you must provide a template.json file for this operation. [You can find a template here](https://github.com/algorand/go-algorand/blob/master/docker/files/run/devmode_template.json), be sure to replace `NUM_ROUNDS` with your desired number of rounds, such as 3000000.
+Note that you must provide a template.json file for this operation. [You can find a template here](https://github.com/Quarkonium-chain/go-quarkonium/blob/master/docker/files/run/devmode_template.json), be sure to replace `NUM_ROUNDS` with your desired number of rounds, such as 3000000.
 
 Use the `goal network pregen` command to generate the files in a mounted directory:
 ```bash

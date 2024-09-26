@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 func BenchmarkAlgodStartup(b *testing.B) {

@@ -22,9 +22,9 @@ import (
 	"math/rand"
 	"time"
 
-	txn "github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/data/transactions/logic"
-	"github.com/algorand/go-algorand/tools/block-generator/util"
+	txn "github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/util"
 )
 
 // ---- templates ----

@@ -27,9 +27,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/algorand/go-algorand/config"
-	algocrypto "github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	algocrypto "github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"

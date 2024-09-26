@@ -27,7 +27,7 @@ import (
 	mempstore "github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoremem"
 	"golang.org/x/exp/slices"
 
-	"github.com/algorand/go-algorand/network/phonebook"
+	"github.com/Quarkonium-chain/go-quarkonium/network/phonebook"
 	"github.com/algorand/go-deadlock"
 )
 

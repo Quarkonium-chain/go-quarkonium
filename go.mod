@@ -1,4 +1,4 @@
-module github.com/algorand/go-algorand
+module github.com/Quarkonium-chain/go-quarkonium
 
 go 1.21
 

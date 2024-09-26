@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 

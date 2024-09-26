@@ -17,7 +17,7 @@
 package testing
 
 import (
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // MakeAccountData returns a AccountData with non-empty voting fields for online accounts

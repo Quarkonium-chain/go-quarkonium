@@ -19,8 +19,8 @@ package generickv
 import (
 	"context"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/ledger/store/trackerdb"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/store/trackerdb"
 )
 
 type reader struct {

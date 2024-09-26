@@ -28,10 +28,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/gen"
-	"github.com/algorand/go-algorand/netdeploy"
-	"github.com/algorand/go-algorand/netdeploy/remote"
-	"github.com/algorand/go-algorand/util/codecs"
+	"github.com/Quarkonium-chain/go-quarkonium/gen"
+	"github.com/Quarkonium-chain/go-quarkonium/netdeploy"
+	"github.com/Quarkonium-chain/go-quarkonium/netdeploy/remote"
+	"github.com/Quarkonium-chain/go-quarkonium/util/codecs"
 )
 
 var outputFilename string

@@ -17,7 +17,7 @@
 package hashable
 
 import (
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // Message is used for messages with no special meaning

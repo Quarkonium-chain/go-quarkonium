@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 type DuplicateMessageFilter struct {

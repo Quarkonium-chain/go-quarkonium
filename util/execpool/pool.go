@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 // The list of all valid priority values. When adding new ones, add them before numPrios.

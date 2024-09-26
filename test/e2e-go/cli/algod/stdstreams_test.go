@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/nodecontrol"
-	"github.com/algorand/go-algorand/test/framework/fixtures"
-	"github.com/algorand/go-algorand/test/partitiontest"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/nodecontrol"
+	"github.com/Quarkonium-chain/go-quarkonium/test/framework/fixtures"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 func TestAlgodLogsToFile(t *testing.T) {

@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/algorand/go-algorand/tools/block-generator/generator"
-	"github.com/algorand/go-algorand/tools/block-generator/runner"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/generator"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/runner"
 	"github.com/spf13/cobra"
 )
 

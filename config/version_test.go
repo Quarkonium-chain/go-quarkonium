@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/algorand/go-algorand/test/partitiontest"
-	"github.com/algorand/go-algorand/util/s3"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/util/s3"
 	"github.com/stretchr/testify/require"
 )
 

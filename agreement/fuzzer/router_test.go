@@ -17,7 +17,7 @@
 package fuzzer
 
 import (
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // Router is the core router which delivers all messages between the nodes.

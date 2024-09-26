@@ -1,13 +1,13 @@
-module github.com/algorand/go-algorand/tools/x-repo-types
+module github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types
 
 go 1.21
 
 toolchain go1.21.10
 
-replace github.com/algorand/go-algorand => ../..
+replace github.com/Quarkonium-chain/go-quarkonium => ../..
 
 require (
-	github.com/algorand/go-algorand v0.0.0
+	github.com/Quarkonium-chain/go-quarkonium v0.0.0
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
 )

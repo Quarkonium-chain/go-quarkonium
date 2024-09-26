@@ -20,12 +20,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/algorand/go-algorand/daemon/kmd/config"
-	"github.com/algorand/go-algorand/daemon/kmd/server"
-	"github.com/algorand/go-algorand/daemon/kmd/session"
-	"github.com/algorand/go-algorand/daemon/kmd/wallet/driver"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/util/tokens"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/server"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/session"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/wallet/driver"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/util/tokens"
 )
 
 // StartConfig contains configuration information used for starting up kmd

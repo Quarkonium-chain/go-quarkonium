@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/algorand/go-algorand/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 )
 
 // Constant strings used as keys for topics

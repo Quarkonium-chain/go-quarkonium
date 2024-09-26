@@ -17,7 +17,7 @@
 package encoded
 
 import (
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 	"github.com/algorand/msgp/msgp"
 )
 

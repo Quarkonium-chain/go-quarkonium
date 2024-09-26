@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/libgoal"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
 )
 
 var (

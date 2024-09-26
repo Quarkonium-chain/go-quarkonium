@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/daemon/algod/api/client"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util"
-	"github.com/algorand/go-algorand/util/tokens"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/client"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util/tokens"
 )
 
 // StdErrFilename is the name of the file in <datadir> where stderr will be captured if not redirected to host

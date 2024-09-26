@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	pubsub_pb "github.com/libp2p/go-libp2p-pubsub/pb"
 	"github.com/libp2p/go-libp2p/core/host"

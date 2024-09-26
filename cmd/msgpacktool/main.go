@@ -46,7 +46,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/algorand/go-algorand/protocol/transcode"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol/transcode"
 )
 
 var mpToJSON = flag.Bool("d", false, "Decode msgpack to JSON")

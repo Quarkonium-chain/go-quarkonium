@@ -19,7 +19,7 @@ package agreement
 import (
 	"bytes"
 
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // These types are defined to satisfy SortInterface used by

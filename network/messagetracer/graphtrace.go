@@ -24,8 +24,8 @@ import (
 
 	"github.com/algorand/graphtrace/graphtrace"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 type graphtraceMessageTracer struct {

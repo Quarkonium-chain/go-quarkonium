@@ -23,10 +23,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/network/p2p"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/network/p2p"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/spf13/cobra"
 )

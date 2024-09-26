@@ -19,7 +19,7 @@ package testsuite
 import (
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 func TestMockDB(t *testing.T) {

@@ -1106,7 +1106,7 @@ proc ::AlgorandGoal::Report { TEST_PRIMARY_NODE_DIR } {
         expect {
             timeout { ::AlgorandGoal::Abort "goal report timed out"  }
             eof { ::AlgorandGoal::Abort "goal report EOF"  }
-            "source code available at https://github.com/algorand/go-algorand" {puts "goal -v ok"}
+            "source code available at https://github.com/Quarkonium-chain/go-quarkonium" {puts "goal -v ok"}
             -re {Genesis ID from genesis.json: *} {puts "genesis ID from genesis.json ok"}
             -re {Last committed block: (\d+)} {puts "status check ok"}
         }

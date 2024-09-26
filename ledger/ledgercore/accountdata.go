@@ -17,8 +17,8 @@
 package ledgercore
 
 import (
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // AccountData provides users of the Balances interface per-account data (like basics.AccountData)

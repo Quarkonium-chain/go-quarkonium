@@ -29,7 +29,7 @@ var DataDirs []string
 func ResolveDataDir() string {
 	var dir string
 	if (len(DataDirs) > 0) && (DataDirs[0] != "") {
-		// calculate absolute path, see https://github.com/algorand/go-algorand/issues/589
+		// calculate absolute path, see https://github.com/Quarkonium-chain/go-quarkonium/issues/589
 		absDir, err := filepath.Abs(DataDirs[0])
 		if err != nil {
 			reportErrorf("Absolute path conversion error: %s", err)

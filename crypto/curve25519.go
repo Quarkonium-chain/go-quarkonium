@@ -37,8 +37,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 )
 
 // TODO: Remove metrics from crypto package

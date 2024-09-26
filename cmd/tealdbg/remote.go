@@ -22,8 +22,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/algorand/go-algorand/data/transactions/logic"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // RemoteHookAdapter provides HTTP transport for WebDebugger

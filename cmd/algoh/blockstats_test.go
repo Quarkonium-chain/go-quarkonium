@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/logging/telemetryspec"
-	"github.com/algorand/go-algorand/rpcs"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/telemetryspec"
+	"github.com/Quarkonium-chain/go-quarkonium/rpcs"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 

@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/DataDog/zstd"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 

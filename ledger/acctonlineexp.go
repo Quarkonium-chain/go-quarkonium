@@ -17,7 +17,7 @@
 package ledger
 
 import (
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 	"github.com/algorand/go-deadlock"
 )
 

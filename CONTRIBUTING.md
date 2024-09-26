@@ -58,6 +58,6 @@ The project maintainers are responsible for the code in `go-algorand`, so ultima
 All changes are subject to a minimum of two reviews from subject matter experts prior to merge. Once this approval is reached a small number of committers are responsible for merging the changes. The list of committers is limited for practical and security reasons.
 
 [gh-pr-process]: https://help.github.com/en/articles/creating-a-pull-request-from-a-fork
-[go-algorand-issues]: https://github.com/algorand/go-algorand/issues/new/choose
-[security-disclosure]: https://github.com/algorand/go-algorand/security/policy
+[go-algorand-issues]: https://github.com/Quarkonium-chain/go-quarkonium/issues/new/choose
+[security-disclosure]: https://github.com/Quarkonium-chain/go-quarkonium/security/policy
 [algorand-docs]: https://github.com/algorand/docs/blob/staging/CONTRIBUTING.md

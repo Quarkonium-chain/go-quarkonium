@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 
@@ -102,8 +102,8 @@ func TestWithFieldsNewLogger(t *testing.T) {
 	nl.SetOutput(&bufNewLogger)
 
 	nl.WithFields(Fields{"1": 4, "2": "testNew"}).Info("ABCDEFG")
-	a.Regexp("time=\".*\" level=info msg=ABCDEFG 1=4 2=testNew file=log_test.go function=github.com/algorand/go-algorand/logging.TestWithFieldsNewLogger line=\\d+", bufNewLogger.String())
-	a.NotRegexp("time=\".*\" level=info msg=ABCDEFG 1=4 2=test file=log_test.go function=github.com/algorand/go-algorand/logging.TestWithFieldsNewLogger line=\\d+", bufNewLogger.String())
+	a.Regexp("time=\".*\" level=info msg=ABCDEFG 1=4 2=testNew file=log_test.go function=github.com/Quarkonium-chain/go-quarkonium/logging.TestWithFieldsNewLogger line=\\d+", bufNewLogger.String())
+	a.NotRegexp("time=\".*\" level=info msg=ABCDEFG 1=4 2=test file=log_test.go function=github.com/Quarkonium-chain/go-quarkonium/logging.TestWithFieldsNewLogger line=\\d+", bufNewLogger.String())
 }
 
 func TestSetJSONFormatter(t *testing.T) {

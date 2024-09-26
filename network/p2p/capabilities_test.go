@@ -30,11 +30,11 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	algodht "github.com/algorand/go-algorand/network/p2p/dht"
-	"github.com/algorand/go-algorand/network/p2p/peerstore"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	algodht "github.com/Quarkonium-chain/go-quarkonium/network/p2p/dht"
+	"github.com/Quarkonium-chain/go-quarkonium/network/p2p/peerstore"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 func setupDHTHosts(t *testing.T, numHosts int) []*dht.IpfsDHT {

@@ -19,7 +19,7 @@ package telemetryspec
 import (
 	"time"
 
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 // Telemetry Events

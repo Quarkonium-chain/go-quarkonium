@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/algorand/go-algorand/network/limitlistener"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/network/limitlistener"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 const defaultMaxOpenFiles = 256

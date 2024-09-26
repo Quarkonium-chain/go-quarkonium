@@ -21,8 +21,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/algorand/go-algorand/network"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // MockNetwork is a dummy network that doesn't do anything

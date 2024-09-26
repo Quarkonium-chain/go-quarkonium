@@ -20,9 +20,9 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // SignedTxn wraps a transaction and a signature.

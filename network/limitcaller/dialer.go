@@ -21,9 +21,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/algorand/go-algorand/network/phonebook"
-	"github.com/algorand/go-algorand/tools/network/dnssec"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/network/phonebook"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/network/dnssec"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 type netDialer interface {

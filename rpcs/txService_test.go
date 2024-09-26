@@ -29,13 +29,13 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/components/mocks"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/network"
-	p2ptesting "github.com/algorand/go-algorand/network/p2p/testing"
-	"github.com/algorand/go-algorand/test/partitiontest"
-	"github.com/algorand/go-algorand/util/bloom"
+	"github.com/Quarkonium-chain/go-quarkonium/components/mocks"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
+	p2ptesting "github.com/Quarkonium-chain/go-quarkonium/network/p2p/testing"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/util/bloom"
 )
 
 func TestMain(m *testing.M) {

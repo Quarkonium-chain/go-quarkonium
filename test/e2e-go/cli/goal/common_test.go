@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/algorand/go-algorand/test/framework/fixtures"
+	"github.com/Quarkonium-chain/go-quarkonium/test/framework/fixtures"
 )
 
 var fixture fixtures.GoalFixture

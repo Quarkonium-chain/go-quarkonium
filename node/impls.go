@@ -20,16 +20,16 @@ import (
 	"context"
 	"errors"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/catchup"
-	"github.com/algorand/go-algorand/data"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/ledger"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/network"
-	"github.com/algorand/go-algorand/util/execpool"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/catchup"
+	"github.com/Quarkonium-chain/go-quarkonium/data"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/network"
+	"github.com/Quarkonium-chain/go-quarkonium/util/execpool"
 )
 
 // TODO these implementations should be pushed down into the corresponding structs or alternatively turned into new structs in the correct subpackages

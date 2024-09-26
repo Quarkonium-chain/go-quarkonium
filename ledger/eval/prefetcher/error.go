@@ -19,7 +19,7 @@ package prefetcher
 import (
 	"fmt"
 
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // GroupTaskError indicates the group index of the unfulfilled resource

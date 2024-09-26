@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/util/s3"
+	"github.com/Quarkonium-chain/go-quarkonium/util/s3"
 )
 
 var sourcePath string

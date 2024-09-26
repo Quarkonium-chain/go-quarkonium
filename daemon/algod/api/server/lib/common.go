@@ -21,9 +21,9 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/node"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/node"
 )
 
 // GenesisJSONText is initialized when the node starts.

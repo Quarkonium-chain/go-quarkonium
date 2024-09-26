@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/algorand/go-algorand/util"
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 )
 
 var ramUsageGauge = metrics.MakeGauge(metrics.MetricName{Name: "algod_ram_usage", Description: "number of bytes runtime.ReadMemStats().HeapInuse"})

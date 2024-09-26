@@ -23,8 +23,8 @@ import (
 
 	"github.com/DataDog/zstd"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 var zstdCompressionMagic = [4]byte{0x28, 0xb5, 0x2f, 0xfd}

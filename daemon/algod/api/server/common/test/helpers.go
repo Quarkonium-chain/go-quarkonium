@@ -21,10 +21,10 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/node"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/node"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 var cannedStatusReportCaughtUpAndReadyGolden = node.StatusReport{

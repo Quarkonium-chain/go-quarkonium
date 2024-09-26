@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v2/generated/model"
-	"github.com/algorand/go-algorand/gen"
-	"github.com/algorand/go-algorand/libgoal"
-	"github.com/algorand/go-algorand/netdeploy/remote"
-	"github.com/algorand/go-algorand/nodecontrol"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v2/generated/model"
+	"github.com/Quarkonium-chain/go-quarkonium/gen"
+	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
+	"github.com/Quarkonium-chain/go-quarkonium/netdeploy/remote"
+	"github.com/Quarkonium-chain/go-quarkonium/nodecontrol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 	"golang.org/x/exp/maps"
 )
 

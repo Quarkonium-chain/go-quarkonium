@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/test/partitiontest"
-	"github.com/algorand/go-algorand/test/reflectionhelpers"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/test/reflectionhelpers"
 )
 
 func makeTypeCheckFunction(t *testing.T, exceptions []reflectionhelpers.TypePath, startType reflect.Type) reflectionhelpers.ReferencedTypesIterationAction {

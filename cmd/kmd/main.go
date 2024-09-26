@@ -27,10 +27,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	"github.com/algorand/go-algorand/cmd/kmd/codes"
-	"github.com/algorand/go-algorand/daemon/kmd"
-	"github.com/algorand/go-algorand/daemon/kmd/server"
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/kmd/codes"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/server"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 const (

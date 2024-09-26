@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/algorand/go-algorand/cmd/tealdbg/cdt"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/tealdbg/cdt"
 )
 
 // Object IDs

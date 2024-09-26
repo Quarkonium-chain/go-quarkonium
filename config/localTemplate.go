@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util"
-	"github.com/algorand/go-algorand/util/codecs"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util/codecs"
 )
 
 // Local holds the per-node-instance configuration settings for the protocol.

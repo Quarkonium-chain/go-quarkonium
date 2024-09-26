@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/tools/network/dnssec"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/network/dnssec"
 )
 
 func main() {

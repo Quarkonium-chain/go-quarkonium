@@ -28,8 +28,8 @@ import (
 	libp2p "github.com/libp2p/go-libp2p/core/peerstore"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/network/phonebook"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/network/phonebook"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 // PhoneBookEntryRelayRole used for all the relays that are provided either via the algobootstrap SRV record

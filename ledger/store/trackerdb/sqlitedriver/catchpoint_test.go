@@ -21,11 +21,11 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/basics"
-	storetesting "github.com/algorand/go-algorand/ledger/store/testing"
-	"github.com/algorand/go-algorand/ledger/store/trackerdb"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	storetesting "github.com/Quarkonium-chain/go-quarkonium/ledger/store/testing"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/store/trackerdb"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 

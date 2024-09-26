@@ -38,9 +38,9 @@ import (
 
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/tools/block-generator/generator"
-	"github.com/algorand/go-algorand/tools/block-generator/util"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/generator"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/util"
 )
 
 //go:embed template/conduit_pg_exporter.tmpl

@@ -26,13 +26,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/algorand/go-algorand/cmd/kmd/codes"
-	"github.com/algorand/go-algorand/daemon/kmd/client"
-	"github.com/algorand/go-algorand/daemon/kmd/lib/kmdapi"
-	"github.com/algorand/go-algorand/daemon/kmd/server"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/util"
-	"github.com/algorand/go-algorand/util/tokens"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/kmd/codes"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/client"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/lib/kmdapi"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/server"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util/tokens"
 )
 
 const (

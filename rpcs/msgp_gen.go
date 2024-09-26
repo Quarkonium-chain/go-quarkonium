@@ -5,8 +5,8 @@ package rpcs
 import (
 	"github.com/algorand/msgp/msgp"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
 )
 
 // The following msgp objects are implemented in this file:

@@ -18,7 +18,7 @@ package fuzzer
 
 import (
 	"container/heap"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // PriorityQueue implements heap.Interface and holds QueueItem which contains an AlgoMessage.

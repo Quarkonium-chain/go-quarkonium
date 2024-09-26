@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 var errUnableUnmarshallMessage = errors.New("unmarshalMessageOfInterest: could not unmarshall message")

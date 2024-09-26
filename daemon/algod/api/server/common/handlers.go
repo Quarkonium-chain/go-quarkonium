@@ -23,12 +23,12 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/daemon/algod/api"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/lib"
-	"github.com/algorand/go-algorand/daemon/algod/api/spec/common"
-	"github.com/algorand/go-algorand/node"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/lib"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/spec/common"
+	"github.com/Quarkonium-chain/go-quarkonium/node"
 )
 
 // GenesisJSON is an httpHandler for route GET /genesis

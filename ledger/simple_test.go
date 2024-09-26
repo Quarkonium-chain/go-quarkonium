@@ -22,19 +22,19 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/data/committee"
-	"github.com/algorand/go-algorand/data/transactions"
-	"github.com/algorand/go-algorand/data/transactions/verify"
-	"github.com/algorand/go-algorand/data/txntest"
-	"github.com/algorand/go-algorand/ledger/eval"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/data/committee"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions"
+	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/verify"
+	"github.com/Quarkonium-chain/go-quarkonium/data/txntest"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/eval"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"github.com/stretchr/testify/require"
 )
 
@@ -183,7 +183,7 @@ func endBlock(t testing.TB, ledger *Ledger, eval *eval.BlockEvaluator, proposer 
 	// `rndBQ` gives the latest known block round added to the ledger
 	// we should wait until `rndBQ` block to be committed to blockQueue,
 	// in case there is a data race, noted in
-	// https://github.com/algorand/go-algorand/issues/4349
+	// https://github.com/Quarkonium-chain/go-quarkonium/issues/4349
 	// where writing to `callTxnGroup` after `dl.fullBlock` caused data race,
 	// because the underlying async goroutine `go bq.syncer()` is reading `callTxnGroup`.
 	// A solution here would be wait until all new added blocks are committed,

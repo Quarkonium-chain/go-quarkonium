@@ -16,7 +16,7 @@
 
 package main
 
-import "github.com/algorand/go-algorand/tools/block-generator/core"
+import "github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/core"
 
 func main() {
 	err := core.BlockGenerator.Execute()

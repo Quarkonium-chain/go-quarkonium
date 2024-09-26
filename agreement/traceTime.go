@@ -19,8 +19,8 @@ package agreement
 import (
 	"time"
 
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/logging/telemetryspec"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/telemetryspec"
 )
 
 // We call all of the following messages post-filtering, such that

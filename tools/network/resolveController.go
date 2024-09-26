@@ -22,8 +22,8 @@ import (
 
 	madns "github.com/multiformats/go-multiaddr-dns"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/tools/network/dnssec"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/network/dnssec"
 )
 
 // ResolverIf is re-import from dnssec.ResolverIf

@@ -22,7 +22,7 @@ import (
 
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 )
 
 //msgp:ignore pmStage

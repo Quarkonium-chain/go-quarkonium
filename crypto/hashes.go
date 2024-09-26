@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"github.com/algorand/go-sumhash"
 )
 

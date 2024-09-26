@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/util/db"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/util/db"
 )
 
 // Store is the interface for the tracker db.

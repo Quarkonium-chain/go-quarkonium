@@ -4,7 +4,7 @@
 TAG=$1
 BRANCH=${2:-rel/stable}
 
-pushd "${HOME}"/go/src/github.com/algorand/go-algorand || exit
+pushd "${HOME}"/go/src/github.com/Quarkonium-chain/go-quarkonium || exit
 git checkout "${BRANCH}"
 
 # TODO

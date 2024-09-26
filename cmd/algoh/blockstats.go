@@ -19,8 +19,8 @@ package main
 import (
 	"time"
 
-	"github.com/algorand/go-algorand/logging/telemetryspec"
-	"github.com/algorand/go-algorand/rpcs"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/telemetryspec"
+	"github.com/Quarkonium-chain/go-quarkonium/rpcs"
 )
 
 const downtimeLimit time.Duration = 5 * time.Minute

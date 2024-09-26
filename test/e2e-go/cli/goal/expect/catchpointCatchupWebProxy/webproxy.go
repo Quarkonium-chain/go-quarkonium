@@ -28,8 +28,8 @@ import (
 
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/test/framework/fixtures"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/test/framework/fixtures"
 )
 
 var webProxyDestination = flag.String("targetEndpoint", "", "target endpoint")

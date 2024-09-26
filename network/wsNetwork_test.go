@@ -39,8 +39,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/algorand/go-algorand/internal/rapidgen"
-	"github.com/algorand/go-algorand/network/phonebook"
+	"github.com/Quarkonium-chain/go-quarkonium/internal/rapidgen"
+	"github.com/Quarkonium-chain/go-quarkonium/network/phonebook"
 	"pgregory.net/rapid"
 
 	"github.com/stretchr/testify/assert"
@@ -49,14 +49,14 @@ import (
 	"github.com/algorand/go-deadlock"
 	"github.com/algorand/websocket"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/logging/telemetryspec"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/test/partitiontest"
-	"github.com/algorand/go-algorand/util"
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/telemetryspec"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 )
 
 const sendBufferLength = 1000

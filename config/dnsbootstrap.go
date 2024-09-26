@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // DNSBootstrap represents parsed / validated components derived from a DNSBootstrapID

@@ -19,7 +19,7 @@ package generickv
 import (
 	"encoding/binary"
 
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 const (

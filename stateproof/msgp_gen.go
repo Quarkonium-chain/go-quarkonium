@@ -7,11 +7,11 @@ import (
 
 	"github.com/algorand/msgp/msgp"
 
-	"github.com/algorand/go-algorand/crypto/merklesignature"
-	"github.com/algorand/go-algorand/crypto/stateproof"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/data/stateproofmsg"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklesignature"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/stateproof"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/data/stateproofmsg"
 )
 
 // The following msgp objects are implemented in this file:

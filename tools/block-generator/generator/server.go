@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/tools/block-generator/util"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/util"
 )
 
 // MakeServer configures http handlers. Returns the http server.

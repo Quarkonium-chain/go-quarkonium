@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 	"github.com/algorand/go-deadlock"
 )
 

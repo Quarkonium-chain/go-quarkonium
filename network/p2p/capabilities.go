@@ -27,10 +27,10 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	libpeerstore "github.com/libp2p/go-libp2p/core/peerstore"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	algoDht "github.com/algorand/go-algorand/network/p2p/dht"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	algoDht "github.com/Quarkonium-chain/go-quarkonium/network/p2p/dht"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // Capability represents functions that some nodes may provide and other nodes would want to know about

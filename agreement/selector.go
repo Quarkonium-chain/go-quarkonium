@@ -19,10 +19,10 @@ package agreement
 import (
 	"fmt"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/committee"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/committee"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 // A Selector is the input used to define proposers and members of voting

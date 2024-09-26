@@ -19,5 +19,5 @@ output-options:
   skip-prune: true
 additional-imports:
   - alias: "."
-    package: "github.com/algorand/go-algorand/daemon/algod/api/server/v2/generated/model"
+    package: "github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v2/generated/model"
 output: ./server/v2/generated/data/routes.go

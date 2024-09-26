@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/stretchr/testify/require"
 )
 
@@ -348,28 +348,28 @@ func TestBuildWithCyclicCheck(t *testing.T) {
 			name: "recursive 0",
 			x:    Node{},
 			path: []string{
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Node\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Node\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Node\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Node\" (struct)",
 			},
 		},
 		{
 			name: "recursive 1",
 			x:    Senior{},
 			path: []string{
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Senior\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Parent\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Child\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Senior\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Senior\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Parent\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Child\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Senior\" (struct)",
 			},
 		},
 		{
 			name: "recursive 2",
 			x:    Child{},
 			path: []string{
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Child\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Senior\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Parent\" (struct)",
-				"github.com/algorand/go-algorand/tools/x-repo-types/typeAnalyzer :: \"main.Child\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Child\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Senior\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Parent\" (struct)",
+				"github.com/Quarkonium-chain/go-quarkonium/tools/x-repo-types/typeAnalyzer :: \"main.Child\" (struct)",
 			},
 		},
 		{

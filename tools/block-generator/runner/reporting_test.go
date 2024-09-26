@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/tools/block-generator/generator"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/block-generator/generator"
 )
 
 const initialRound = 1234

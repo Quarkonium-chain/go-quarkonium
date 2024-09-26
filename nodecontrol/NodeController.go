@@ -21,7 +21,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 // NodeController provides an object for controlling a specific algod node instance

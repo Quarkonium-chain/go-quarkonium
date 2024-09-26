@@ -35,7 +35,7 @@ import (
 
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/algorand/go-algorand/libgoal"
+	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
 )
 
 var configFile = flag.String("config", "", "JSON configuration file")

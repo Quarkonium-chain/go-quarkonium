@@ -28,4 +28,4 @@ algod(57403) : Exiting on terminated
 algod(57402) : Exiting on terminated
 --- PASS: TestAccountsCanSendMoney (112.79s)
 PASS
-ok  	github.com/algorand/go-algorand/test/e2e-go/features/transactions	113.107s
+ok  	github.com/Quarkonium-chain/go-quarkonium/test/e2e-go/features/transactions	113.107s

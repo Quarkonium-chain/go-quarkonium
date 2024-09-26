@@ -21,9 +21,9 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	p2proto "github.com/libp2p/go-libp2p/core/protocol"
 
-	"github.com/algorand/go-algorand/network/p2p"
-	"github.com/algorand/go-algorand/protocol"
-	"github.com/algorand/go-algorand/util/metrics"
+	"github.com/Quarkonium-chain/go-quarkonium/network/p2p"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/util/metrics"
 )
 
 func init() {

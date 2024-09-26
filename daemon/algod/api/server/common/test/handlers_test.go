@@ -25,11 +25,11 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/daemon/algod/api/server/common"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/lib"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/node"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/common"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/lib"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/node"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 func mockNodeStatusInRangeHelper(

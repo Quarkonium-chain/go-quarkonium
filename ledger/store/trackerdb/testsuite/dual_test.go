@@ -19,8 +19,8 @@ package testsuite
 import (
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/ledger/store/trackerdb/testdb"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/store/trackerdb/testdb"
 )
 
 func TestDualEngines(t *testing.T) {

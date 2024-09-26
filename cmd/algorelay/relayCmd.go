@@ -26,9 +26,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/cmd/algorelay/eb"
-	"github.com/algorand/go-algorand/tools/network/cloudflare"
-	"github.com/algorand/go-algorand/util/codecs"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/algorelay/eb"
+	"github.com/Quarkonium-chain/go-quarkonium/tools/network/cloudflare"
+	"github.com/Quarkonium-chain/go-quarkonium/util/codecs"
 )
 
 var (

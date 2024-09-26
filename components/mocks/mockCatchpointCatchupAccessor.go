@@ -19,12 +19,12 @@ package mocks
 import (
 	"context"
 
-	"github.com/algorand/go-algorand/agreement"
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/data/bookkeeping"
-	"github.com/algorand/go-algorand/ledger"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/agreement"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/bookkeeping"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
 )
 
 // MockCatchpointCatchupAccessor is a dummy CatchpointCatchupAccessor implementation which doesn't do anything.

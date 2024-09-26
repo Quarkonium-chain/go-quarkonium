@@ -19,7 +19,7 @@ package agreement
 import (
 	"github.com/algorand/go-deadlock"
 
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 //go:generate stringer -type=coserviceType

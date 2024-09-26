@@ -34,15 +34,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/daemon/algod/api/server/v2/generated/model"
-	"github.com/algorand/go-algorand/ledger/ledgercore"
-	"github.com/algorand/go-algorand/libgoal"
-	naddr "github.com/algorand/go-algorand/network/addr"
-	"github.com/algorand/go-algorand/nodecontrol"
-	"github.com/algorand/go-algorand/util"
-	"github.com/algorand/go-algorand/util/tokens"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/server/v2/generated/model"
+	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
+	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
+	naddr "github.com/Quarkonium-chain/go-quarkonium/network/addr"
+	"github.com/Quarkonium-chain/go-quarkonium/nodecontrol"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
+	"github.com/Quarkonium-chain/go-quarkonium/util/tokens"
 )
 
 var peerDial string

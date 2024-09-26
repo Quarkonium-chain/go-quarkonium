@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/daemon/kmd/config"
-	"github.com/algorand/go-algorand/test/framework/fixtures"
-	"github.com/algorand/go-algorand/test/partitiontest"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/config"
+	"github.com/Quarkonium-chain/go-quarkonium/test/framework/fixtures"
+	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 )
 
 func TestNonAbsSQLiteWalletConfigFails(t *testing.T) {

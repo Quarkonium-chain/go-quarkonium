@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 type baseFixture struct {
@@ -42,7 +42,7 @@ func getTestDir() string {
 		return path.Join(path.Dir(filename), "..", "..")
 	}
 	// fallback to the legacy GOPATH location.
-	return os.ExpandEnv("${GOPATH}/src/github.com/algorand/go-algorand/test/")
+	return os.ExpandEnv("${GOPATH}/src/github.com/Quarkonium-chain/go-quarkonium/test/")
 }
 
 func (f *baseFixture) initialize(instance Fixture) {

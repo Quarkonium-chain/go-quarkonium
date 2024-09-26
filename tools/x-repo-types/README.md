@@ -7,10 +7,10 @@ This tool is designed to be used in CI systems to alert us if a change is made t
 
 ```sh
 goal-v-sdk-state-delta-xrt:
-    x-repo-types --x-package "github.com/algorand/go-algorand/ledger/ledgercore" \
+    x-repo-types --x-package "github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore" \
     --x-type "StateDelta" \
     --y-branch "develop" \
-    --y-package "github.com/algorand/go-algorand-sdk/v2/types" \
+    --y-package "github.com/Quarkonium-chain/go-quarkonium-sdk/v2/types" \
     --y-type "LedgerStateDelta"
 ```
 

@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/logging/logspec"
-	"github.com/algorand/go-algorand/logging/telemetryspec"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/logspec"
+	"github.com/Quarkonium-chain/go-quarkonium/logging/telemetryspec"
 )
 
 //msgp:ignore traceLevel

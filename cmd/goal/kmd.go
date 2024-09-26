@@ -19,9 +19,9 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/go-algorand/cmd/util/datadir"
-	"github.com/algorand/go-algorand/nodecontrol"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
+	"github.com/Quarkonium-chain/go-quarkonium/nodecontrol"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 var kmdTimeoutSecs uint64

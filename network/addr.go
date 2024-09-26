@@ -20,7 +20,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/algorand/go-algorand/network/addr"
+	"github.com/Quarkonium-chain/go-quarkonium/network/addr"
 )
 
 // addrToGossipAddr parses host:port or a URL and returns the URL to the websocket interface at that address.

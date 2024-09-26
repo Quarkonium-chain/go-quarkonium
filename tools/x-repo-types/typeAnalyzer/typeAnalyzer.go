@@ -31,10 +31,10 @@ import (
 // would be evaluated as different by the diff algorithm if not for this exclusion.
 var diffExclusions = map[string]bool{
 	// MicroAlgos is a struct with custom marshal override in go-algorand. In other repos it is a uint64.
-	`github.com/algorand/go-algorand/data/basics :: "basics.MicroAlgos" (struct)`: true,
+	`github.com/Quarkonium-chain/go-quarkonium/data/basics :: "basics.MicroAlgos" (struct)`: true,
 
 	// crypto.PublicKey is an array [32]byte in go-algorand, but is a byte-slice elsewhere.
-	`github.com/algorand/go-algorand/crypto :: "crypto.PublicKey" (array)`: true,
+	`github.com/Quarkonium-chain/go-quarkonium/crypto :: "crypto.PublicKey" (array)`: true,
 }
 
 // --------------- TYPE TREE DATA STRUCTURES --------------- //

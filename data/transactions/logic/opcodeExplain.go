@@ -16,7 +16,7 @@
 
 package logic
 
-import "github.com/algorand/go-algorand/data/basics"
+import "github.com/Quarkonium-chain/go-quarkonium/data/basics"
 
 // debugStackExplain explains the effect of an opcode over the stack
 // with 2 integers: deletions and additions, representing pops and inserts.

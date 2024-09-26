@@ -45,7 +45,7 @@ and balance records (see [Setting Debug Context](#setting-debug-context) for det
 
 Remote debugger might be useful for debugging unit tests for TEAL (currently in Golang only) or for hacking **algod** `eval` and breaking on any TEAL evaluation.
 The protocol consist of three REST endpoints and one data structure describing the evaluator state.
-See `WebDebugger` and `TestWebDebuggerManual` in [go-algorand sources](https://github.com/algorand/go-algorand/tree/master/data/transactions/logic) for more details.
+See `WebDebugger` and `TestWebDebuggerManual` in [go-algorand sources](https://github.com/Quarkonium-chain/go-quarkonium/tree/master/data/transactions/logic) for more details.
 
 ### Frontends
 
@@ -85,7 +85,7 @@ If an array of transaction supplied then it is treated as a transaction group. T
 $ tealdbg debug --txn samples/txn_group.json --group-index=1
 ```
 
-Transaction(s) are JSON or MessagePack (`goal clerk` compatible) serialized instances of `transactions`. See [samples dir](https://github.com/algorand/go-algorand/tree/master/cmd/tealdbg/samples) for more examples.
+Transaction(s) are JSON or MessagePack (`goal clerk` compatible) serialized instances of `transactions`. See [samples dir](https://github.com/Quarkonium-chain/go-quarkonium/tree/master/cmd/tealdbg/samples) for more examples.
 
 Sample transaction in JSON format:
 ```json

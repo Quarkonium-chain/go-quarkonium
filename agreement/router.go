@@ -17,7 +17,7 @@
 package agreement
 
 import (
-	"github.com/algorand/go-algorand/config"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
 )
 
 // A stateMachineTag uniquely identifies the type of a state machine.

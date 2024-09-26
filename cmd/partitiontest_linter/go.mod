@@ -1,4 +1,4 @@
-module github.com/algorand/go-algorand/cmd/partitiontest_linter
+module github.com/Quarkonium-chain/go-quarkonium/cmd/partitiontest_linter
 
 go 1.21
 

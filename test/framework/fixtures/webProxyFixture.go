@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 // WebProxyInterceptFunc expose the web proxy intercept function

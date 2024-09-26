@@ -70,11 +70,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/algorand/go-algorand/daemon/kmd/api/v1"
-	"github.com/algorand/go-algorand/daemon/kmd/lib/kmdapi"
-	"github.com/algorand/go-algorand/daemon/kmd/session"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/api/v1"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/lib/kmdapi"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/session"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 const (

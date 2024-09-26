@@ -5,8 +5,8 @@ package merklesignature
 import (
 	"github.com/algorand/msgp/msgp"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/crypto/merklearray"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklearray"
 )
 
 // The following msgp objects are implemented in this file:

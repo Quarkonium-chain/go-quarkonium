@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/algorand/go-algorand/data/basics"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 type TrafficStatisticsFilterConfig struct {

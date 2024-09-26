@@ -29,10 +29,10 @@ import (
 	"github.com/algorand/go-deadlock"
 	"github.com/gofrs/flock"
 
-	"github.com/algorand/go-algorand/daemon/kmd/api"
-	"github.com/algorand/go-algorand/daemon/kmd/session"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/util/tokens"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/api"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/session"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/util/tokens"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"github.com/algorand/go-codec/codec"
 	"github.com/algorand/msgp/msgp"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 )
 
 // RoundInterval is a number of rounds

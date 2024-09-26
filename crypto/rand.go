@@ -22,7 +22,7 @@ import (
 
 	"github.com/davidlazar/go-crypto/drbg"
 
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 // RNG represents a randomness source.  This could be either a system-wide

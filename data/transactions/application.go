@@ -19,7 +19,7 @@ package transactions
 import (
 	"fmt"
 
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 	"golang.org/x/exp/slices"
 )
 

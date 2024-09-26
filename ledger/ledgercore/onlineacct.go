@@ -17,8 +17,8 @@
 package ledgercore
 
 import (
-	"github.com/algorand/go-algorand/crypto/merklesignature"
-	"github.com/algorand/go-algorand/data/basics"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklesignature"
+	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 )
 
 // An OnlineAccount corresponds to an account whose AccountData.Status

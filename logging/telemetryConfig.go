@@ -26,8 +26,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/util/uuid"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/util/uuid"
 )
 
 // TelemetryConfigFilename default file name for telemetry config "logging.config"

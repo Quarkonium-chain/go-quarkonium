@@ -28,7 +28,7 @@ This library is used to generate code to serialize and deserialize message pack
 messages without using reflection. It has been modified to be compatible with
 the `codec:` annotations used by go-codec. The generated methods are
 significantly faster than the reflection based go-codec versions. For a rough
-idea of the performance difference, [here are some benchmarks for Transactions](https://github.com/algorand/go-algorand/pull/4266).
+idea of the performance difference, [here are some benchmarks for Transactions](https://github.com/Quarkonium-chain/go-quarkonium/pull/4266).
 
 ## Code generation
 

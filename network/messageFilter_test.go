@@ -19,8 +19,8 @@ package network
 import (
 	"testing"
 
-	"github.com/algorand/go-algorand/crypto"
-	"github.com/algorand/go-algorand/protocol"
+	"github.com/Quarkonium-chain/go-quarkonium/crypto"
+	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 )
 
 func BenchmarkGenerateMessageDigest(b *testing.B) {

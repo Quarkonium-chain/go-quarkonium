@@ -24,11 +24,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/go-algorand/daemon/kmd/client"
-	"github.com/algorand/go-algorand/daemon/kmd/config"
-	"github.com/algorand/go-algorand/daemon/kmd/lib/kmdapi"
-	"github.com/algorand/go-algorand/nodecontrol"
-	"github.com/algorand/go-algorand/util"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/client"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/config"
+	"github.com/Quarkonium-chain/go-quarkonium/daemon/kmd/lib/kmdapi"
+	"github.com/Quarkonium-chain/go-quarkonium/nodecontrol"
+	"github.com/Quarkonium-chain/go-quarkonium/util"
 )
 
 // defaultConfig lowers scrypt params to make tests faster

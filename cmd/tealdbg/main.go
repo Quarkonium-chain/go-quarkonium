@@ -24,7 +24,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	cmdutil "github.com/algorand/go-algorand/cmd/util"
+	cmdutil "github.com/Quarkonium-chain/go-quarkonium/cmd/util"
 )
 
 func main() {

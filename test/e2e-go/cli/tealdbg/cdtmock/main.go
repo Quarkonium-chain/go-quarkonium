@@ -26,7 +26,7 @@ import (
 
 	"github.com/algorand/websocket"
 
-	"github.com/algorand/go-algorand/cmd/tealdbg/cdt"
+	"github.com/Quarkonium-chain/go-quarkonium/cmd/tealdbg/cdt"
 )
 
 type wsClient struct {

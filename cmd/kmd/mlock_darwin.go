@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/algorand/go-algorand/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
 )
 
 func tryMlockall(log logging.Logger) {

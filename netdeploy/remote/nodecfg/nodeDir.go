@@ -25,12 +25,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/algorand/go-algorand/config"
-	"github.com/algorand/go-algorand/logging"
-	"github.com/algorand/go-algorand/netdeploy/remote"
-	"github.com/algorand/go-algorand/network/p2p"
-	"github.com/algorand/go-algorand/shared/algoh"
-	"github.com/algorand/go-algorand/util/tokens"
+	"github.com/Quarkonium-chain/go-quarkonium/config"
+	"github.com/Quarkonium-chain/go-quarkonium/logging"
+	"github.com/Quarkonium-chain/go-quarkonium/netdeploy/remote"
+	"github.com/Quarkonium-chain/go-quarkonium/network/p2p"
+	"github.com/Quarkonium-chain/go-quarkonium/shared/algoh"
+	"github.com/Quarkonium-chain/go-quarkonium/util/tokens"
 )
 
 type nodeDir struct {

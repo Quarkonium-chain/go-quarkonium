@@ -20,12 +20,12 @@ RUN apk add dpkg && \
     dpkg-deb -R shellcheck_0.5.0-3_armhf.deb shellcheck && \
     cd shellcheck && \
     mv usr/bin/shellcheck /usr/bin/
-COPY . $GOPATH/src/github.com/algorand/go-algorand
-WORKDIR $GOPATH/src/github.com/algorand/go-algorand
+COPY . $GOPATH/src/github.com/Quarkonium-chain/go-quarkonium
+WORKDIR $GOPATH/src/github.com/Quarkonium-chain/go-quarkonium
 ENV GCC_CONFIG="--with-arch=armv6" \
     GOPROXY=https://proxy.golang.org,https://pkg.go.dev,https://goproxy.io,direct
 RUN git config --global --add safe.directory '*'
 RUN make clean
-RUN rm -rf $GOPATH/src/github.com/algorand/go-algorand && \
-    mkdir -p $GOPATH/src/github.com/algorand/go-algorand
+RUN rm -rf $GOPATH/src/github.com/Quarkonium-chain/go-quarkonium && \
+    mkdir -p $GOPATH/src/github.com/Quarkonium-chain/go-quarkonium
 CMD ["/bin/bash"]

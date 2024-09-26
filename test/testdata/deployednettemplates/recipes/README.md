@@ -16,4 +16,4 @@ Make sure you set the PATH and GOPATH variables to the netgoal binary's path.
 
 ## Custom Recipe
 Leverages the generate_network.py script and has unique instructions found in the README:
-https://github.com/algorand/go-algorand/tree/master/test/testdata/deployednettemplates/recipes/custom
+https://github.com/Quarkonium-chain/go-quarkonium/tree/master/test/testdata/deployednettemplates/recipes/custom

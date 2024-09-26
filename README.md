@@ -35,7 +35,7 @@ requirements.
 Initial environment setup:
 ```bash
 git clone https://github.com/Quarkonium-chain/go-quarkonium
-cd go-algorand
+cd go-quarkonium
 ./scripts/configure_dev.sh
 ./scripts/buildtools/install_buildtools.sh
 ```

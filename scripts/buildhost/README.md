@@ -7,7 +7,7 @@ run the following on a fresh image:
 
 ```bash
 git clone https://github.com/Quarkonium-chain/go-quarkonium
-cd go-algorand/scripts/buildhost
+cd go-quarkonium/scripts/buildhost
 sudo ./configure.sh
 ```
 

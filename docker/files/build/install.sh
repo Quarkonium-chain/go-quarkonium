@@ -73,7 +73,7 @@ else
   git clone "${URL}"
 fi
 
-cd go-algorand
+cd go-quarkonium
 if [ "${SHA}" != "" ]; then
   echo "Checking out ${SHA}"
   git checkout "${SHA}"

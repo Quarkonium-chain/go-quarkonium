@@ -18,7 +18,7 @@ then
     echo There has been a problem cloning the "$BRANCH" branch.
     exit 1
 fi
-cd go-algorand
+cd go-quarkonium
 
 if ! ./scripts/check_golang_version.sh
 then

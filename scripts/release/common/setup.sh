@@ -44,7 +44,7 @@ then
     exit 1
 fi
 
-cd go-algorand
+cd go-quarkonium
 COMMIT_HASH=$(git rev-parse "${BRANCH}")
 
 export DEBIAN_FRONTEND=noninteractive

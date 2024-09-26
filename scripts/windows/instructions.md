@@ -18,7 +18,7 @@
 
 5. Clone repository with `git clone https://github.com/Quarkonium-chain/go-quarkonium`.
 
-6. Switch to source code directory with `cd go-algorand`.
+6. Switch to source code directory with `cd go-quarkonium`.
 
 7. Run `./scripts/configure_dev.sh` to install required dependencies.
 

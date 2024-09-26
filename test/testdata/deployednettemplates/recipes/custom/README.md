@@ -29,7 +29,7 @@ Generate the recipe with the `network-tpl.json` file. You will need netgoal set 
 1. Make sure you're in the same directory as this README and `cp network_templates/network-tpl.json network-tpl.json`
 2. Generate the recipe with a python script:
 ```
-cd go-algorand
+cd go-quarkonium
 python3 test/testdata/deployednettemplates/generate-recipe/generate_network.py -f test/testdata/deployednettemplates/recipes/custom/network_templates/network-tpl.json
 ```
 3. This will create a new set of files in the `generated` folder
@@ -39,7 +39,7 @@ If you have a network_performance_Rules file in the following format on each lin
 first generate a template and then generate the recipe. You will need netgoal set up in your local environment/path.
 1. Generate the template:
 ```
-cd go-algorand
+cd go-quarkonium
 python3 test/testdata/deployednettemplates/generate-recipe/generate_network_tpl.py --network-rules-file example/npr/five-relays.txt --out test/testdata/deployednettemplates/recipes/custom/network_templates/five-relays.json
 ```
 2. Generate the recipe:

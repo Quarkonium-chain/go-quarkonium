@@ -11,7 +11,7 @@ From the go-algorand root directory, setup the environment and build the binarie
 #### Initialize the project
 ```bash
 git clone https://github.com/Quarkonium-chain/go-quarkonium
-cd go-algorand
+cd go-quarkonium
 ./scripts/configure_dev.sh
 ```
 #### Build the binaries

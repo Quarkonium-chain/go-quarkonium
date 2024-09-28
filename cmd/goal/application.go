@@ -30,8 +30,6 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/avm-abi/abi"
-	"github.com/algorand/avm-abi/apps"
 	"github.com/Quarkonium-chain/go-quarkonium/cmd/util/datadir"
 	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 	apiclient "github.com/Quarkonium-chain/go-quarkonium/daemon/algod/api/client"
@@ -40,6 +38,8 @@ import (
 	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
 	"github.com/Quarkonium-chain/go-quarkonium/libgoal"
 	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/algorand/avm-abi/abi"
+	"github.com/algorand/avm-abi/apps"
 )
 
 var (

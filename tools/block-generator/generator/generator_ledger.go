@@ -23,7 +23,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/algorand/avm-abi/apps"
 	cconfig "github.com/Quarkonium-chain/go-quarkonium/config"
 	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
@@ -34,6 +33,7 @@ import (
 	"github.com/Quarkonium-chain/go-quarkonium/ledger/eval"
 	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
 	"github.com/Quarkonium-chain/go-quarkonium/rpcs"
+	"github.com/algorand/avm-abi/apps"
 )
 
 // ---- ledger block generation ----

@@ -32,7 +32,6 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/algorand/avm-abi/apps"
 	cmdutil "github.com/Quarkonium-chain/go-quarkonium/cmd/util"
 	"github.com/Quarkonium-chain/go-quarkonium/config"
 	"github.com/Quarkonium-chain/go-quarkonium/crypto"
@@ -44,6 +43,7 @@ import (
 	"github.com/Quarkonium-chain/go-quarkonium/logging"
 	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"github.com/Quarkonium-chain/go-quarkonium/util/db"
+	"github.com/algorand/avm-abi/apps"
 )
 
 var catchpointFile string

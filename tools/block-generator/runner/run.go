@@ -57,7 +57,7 @@ type Args struct {
 	Path                     string
 	ConduitBinary            string
 	MetricsPort              uint64
-	Template string
+	Template                 string
 	PostgresConnectionString string
 	CPUProfilePath           string
 	RunDuration              time.Duration

@@ -34,7 +34,6 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/algorand/avm-abi/apps"
 	"github.com/Quarkonium-chain/go-quarkonium/config"
 	"github.com/Quarkonium-chain/go-quarkonium/crypto"
 	"github.com/Quarkonium-chain/go-quarkonium/crypto/merklesignature"
@@ -49,6 +48,7 @@ import (
 	"github.com/Quarkonium-chain/go-quarkonium/protocol"
 	"github.com/Quarkonium-chain/go-quarkonium/test/partitiontest"
 	"github.com/Quarkonium-chain/go-quarkonium/util/db"
+	"github.com/algorand/avm-abi/apps"
 )
 
 func checkAccounts(t *testing.T, tx trackerdb.TransactionScope, rnd basics.Round, accts map[basics.Address]basics.AccountData) {

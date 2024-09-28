@@ -19,12 +19,12 @@ package eval
 import (
 	"fmt"
 
-	"github.com/algorand/avm-abi/apps"
 	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
 	"github.com/Quarkonium-chain/go-quarkonium/data/transactions/logic"
 	"github.com/Quarkonium-chain/go-quarkonium/ledger/apply"
 	"github.com/Quarkonium-chain/go-quarkonium/ledger/ledgercore"
 	"github.com/Quarkonium-chain/go-quarkonium/protocol"
+	"github.com/algorand/avm-abi/apps"
 )
 
 /* This file adds functions to roundCowState that make it more palatable for use

@@ -33,8 +33,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/algorand/avm-abi/abi"
 	"github.com/Quarkonium-chain/go-quarkonium/data/basics"
+	"github.com/algorand/avm-abi/abi"
 )
 
 // optimizeConstantsEnabledVersion is the first version of TEAL where the

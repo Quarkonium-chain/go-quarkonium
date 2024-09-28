@@ -96,16 +96,6 @@ jobs:
           -filter-mode=added \
           -fail-on-error=true \
           -level=warning
-      - name: Slack Notification
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        run: |
-          curl -X POST --data-urlencode "payload={\"text\": \"Reviewdog failed. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} \"}" $SLACK_WEBHOOK
-        if: ${{ failure() && (contains(github.ref_name, 'rel/nightly') || contains(github.ref_name, 'rel/beta') || contains(github.ref_name, 'rel/stable') || contains(github.ref_name, 'master')) }}
-  reviewdog-shellcheck:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
         with:

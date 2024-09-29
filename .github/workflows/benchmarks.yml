@@ -9,9 +9,8 @@ on:
     branches:
       - master
 permissions:
-  # Push benchmark performance graph to gh-pages branch.
-  contents: write
-  deployments: write
+  contents: read
+
 jobs:
   benchmark:
     name: Performance regression check
@@ -24,28 +23,22 @@ jobs:
       - run: go version
       - name: Build go-quarkonium
         run: scripts/travis/build.sh
-      # BenchmarkUintMath - Serves as a proxy for AVM `eval` performance.
+      # BenchmarkUintMath - Serves as a proxy for AVM eval performance.
       # Performance degradations suggest either or both:  (1) op code
-      # degradation, (2) `eval` degradation.  (2) suggests a broader performance
+      # degradation, (2) eval degradation.  (2) suggests a broader performance
       # issue. 
       - name: Run benchmark
         run: go test ./data/transactions/logic -bench 'BenchmarkUintMath' -run=^$ | tee benchmark_output.txt
-      - name: Push benchmark result to gh-pages branch
-        if: github.event_name == 'push'
+      - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
           name: Go Benchmark
           tool: 'go'
           output-file-path: benchmark_output.txt
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          auto-push: true
-      - name: Evaluate benchmark on PR branch
-        if: github.event.pull_request
-        uses: benchmark-action/github-action-benchmark@v1
-        with:
-          name: Go Benchmark
-          tool: 'go'
-          output-file-path: benchmark_output.txt
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          auto-push: false
+          comment-always: false
+          save-data-file: true
           alert-threshold: '200%'
-          comment-on-alert: true
+          fail-on-alert: false
+          comment-on-alert: ${{ github.event_name == 'pull_request' }}
